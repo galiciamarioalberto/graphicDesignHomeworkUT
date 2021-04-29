@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Responsive Layout</title>
+
+    <meta name="author" content="Greg Hervey" />
+
+    <meta name="viewport" content="width=device-width, intial-scale=1" />
+
+
+    <style>
+        * {
+            margin: 0;
+            font-family: sans-serif;
+        }
+        a{text-decoration: none;}
+
+        header {
+            background: #000;
+            padding: 10px;
+        }
+
+        nav a {
+            padding: 10px 15px;
+            color: #fff;
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        main {
+            padding: 20px;
+        }
+    </style>
+
+
+    <link href="responsiveMenuORIG.css" rel="stylesheet" />
+    <script src="responsiveMenu.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="getting-to-bora-bora.html" id="plane" class="active">Getting there</a>
+            <a href="where-to-stay-in-bora-bora.html" id="bed">Where to stay</a>
+            <a href="things-to-do-in-bora-bora.html" id="camera">Things to do</a>
+            <!--new link for responsive menu-->
+            <a href="javascript:void(0);" class="responsiveMenuIcon" onclick="responsiveMenu()">
+                &#9776;
+            </a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet quis purus vitae fringilla. Vestibulum eros risus, semper vel cursus ut, consectetur eu purus. Duis sed posuere quam. Phasellus ex tortor, rutrum ac cursus mattis, posuere vel risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent dictum enim ac sem fermentum sagittis. Vestibulum posuere gravida faucibus. Phasellus ac finibus ante. Sed hendrerit, sapien vel mollis ullamcorper, eros quam sodales leo, et rhoncus augue nunc nec odio. Donec ipsum orci, placerat ac malesuada vitae, mollis in risus. Mauris vitae orci in lorem accumsan lobortis vitae non purus. Aliquam vitae lacinia neque, in vehicula arcu. Nam ac consequat tortor. In sapien ipsum, tincidunt in viverra ac, sagittis a neque.
+        </p>
+        <p>
+            Aliquam porta sem id urna malesuada, eu vehicula erat mattis. Morbi rhoncus, neque non ultricies imperdiet, tortor mauris ullamcorper justo, at semper mauris diam non purus. Aenean dignissim tortor sed eros mollis facilisis. Praesent quis magna sed urna suscipit sodales. Fusce scelerisque, erat eget rhoncus porttitor, nisl libero mattis tellus, quis faucibus nisi purus sit amet augue. Aenean eu mauris mattis, auctor massa quis, vestibulum dolor. Donec justo odio, tempus sit amet lorem at, semper imperdiet lectus. In mi sapien, venenatis a varius ac, dapibus id mi. Fusce suscipit egestas justo, sed accumsan odio feugiat a. Nam vehicula diam at orci hendrerit, nec sodales lectus posuere. Nam elementum arcu in volutpat dapibus.
+        </p>
+        <p>
+            Vivamus vestibulum consequat pulvinar. Aenean leo tortor, pellentesque eu felis a, laoreet pharetra purus. Sed aliquet velit vitae viverra luctus. Nunc condimentum fringilla velit a luctus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque diam nibh, eleifend vel ligula nec, semper pharetra enim. Donec suscipit, elit at gravida dapibus, elit erat condimentum nisi, nec pulvinar erat ex nec nulla. Ut in suscipit diam. Nunc eget nulla a ante convallis interdum quis vel leo. </p>
+    </main>
+</body></html>

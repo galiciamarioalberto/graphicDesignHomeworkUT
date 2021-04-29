@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+    <head>
+    <link href="images/palmtree.ico"               rel="icon"/>
+        <link href="Styles.css" rel="stylesheet"/>
+        <link href="interior.css" rel="stylesheet"/>
+        <link href="lightbox/dist/css/lightbox.css" rel="stylesheet" />
+        <title> A South Pacific Paradise</title>
+   
+        <style>
+            
+            #gallery{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            #gallery img{
+                width: 100%;
+                
+            }
+            
+            #gallery a{
+                margin: 5px;
+                flex-grow:1;
+                max-width: 450px;
+                flex-basis: 200px;
+            }
+
+        </style>
+        <link href=responsiveMenu/responsiveMenu.css rel="stylesheet"/>
+        <script src="responsiveMenu/responsiveMenu.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    </head>
+    <body>
+        
+        <aside>
+        <nav>
+            <a href="javascript:void(0);" class="responsiveMenuIcon" onclick="responsiveMenu()">
+                &#9776;
+            </a>
+            
+            <a href="index.html"id=
+        "home">HOME</a>
+            
+        <a href="getting-to-bora-bora.html"id=
+        "plane">Getting there</a>
+        
+        <a href="where-to-stay-in-bora-bora.html"id= "bed">Where to Stay</a>
+        
+        <a href="things-to-do-in-bora-bora.html"id="camera" class="active">Things to do</a>
+        </nav>
+            
+        </aside>
+        <main>
+           
+          <video controls poster="videos/ukelele.jpg">
+            
+              <source src="videos/ukelele.mp4" type="video/mp4"/>
+              
+              <source src="videos/ukelele.webm" type="video/webm"/>
+              
+            </video>  
+          
+            <div id="gallery">
+               <a href="images/gallery/boat.jpg" data-lightbox="island" data-title="Listening to ukelele on a day trip"> 
+                <img src="images/gallery/boat.jpg"/></a>
+                <a href="images/gallery/flowers.jpg" data-lightbox="island"data-title="Biking around the island affords wonderful views">
+                <img src="images/gallery/flowers.jpg"/></a>
+                <a href="images/gallery/palm-trees.jpg" data-lightbox="island"data-title="It's tough to find a bad beach in Bora Bora">
+                <img src="images/gallery/palm-trees.jpg"/></a>
+                <a href="images/gallery/stingray.jpg" data-lightbox="island"data-title="Shark and ray feeding day trips are popular">
+                <img src="images/gallery/stingray.jpg"/></a>
+                <a href="images/gallery/tikis.jpg" data-lightbox="island"data-title="Tikis overlooking the huge lagoon">
+                <img src="images/gallery/tikis.jpg"/></a>
+                <a href="images/gallery/underwater.jpg" data-lightbox="island"data-title="Some of the best snorkeling in the world">
+                <img src="images/gallery/underwater.jpg"/></a>
+                                   
+                                   
+        </div>
+            
+        </main>
+    <script src="/lightbox/dist/js/lightbox-plus-jquery.min.js"></script>
+    </body>
+</html>

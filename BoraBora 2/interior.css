@@ -1,0 +1,45 @@
+main img, main video{max-width: 100%;}
+            
+            aside{position:fixed;
+            width:300px;
+            top:0px;
+            bottom:0px;
+            background: linear-gradient(180deg, #2287ac 0%, #142d83 100%)
+            }
+            
+            main{
+                margin-left: 300px;
+                padding: 25px;
+            }
+            
+            nav a{color: #fff;
+                display: block;
+                text-align: left;
+                padding-top: 0px;
+                margin-bottom: 25px;
+                padding:.5em .5em .5em 50px;
+                border-radius: 100px;
+                border: 1x solid rgba(255, 255, 255, 0);
+            }
+            #plane, #bed, #camera {
+                background-image: none;
+            }
+            
+            .active{
+                color: #00bccc;
+                background: #fff;
+                font-weight: 800;
+                background-repeat: no-repeat;
+                background-position: 5px center;
+                background-size: 40px;
+            }
+            
+            #plane.active{background-image: url(images/icon-airplane.svg);
+            }
+            #bed.active{background-image: url(images/icon-bed.svg);
+            }
+#camera.active{background-image: url(images/icon-camera.svg);
+            }
+            nav a:hover{
+                border: 1px solid #fff;
+            }
